@@ -1,7 +1,6 @@
-import cartas
+import ccartas
 
+mi_b = ccartas.Baraja()
+tu_b = ccartas.Baraja()
 
-b1 = cartas.creaBaraja()
-b2 = cartas.creaBaraja()
-
-print(cartas.mezclar(b1))
+tu_b.mezclar()
